@@ -1,0 +1,131 @@
+h1{
+    margin: 20px auto;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    /* background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 100px; */
+    color: #1d89ff;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.timer{
+    position: relative;
+    margin-left: 20px;
+    padding: 5px 12px;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 10px;
+    color: #1d89ff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inherit;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    
+}
+.life{
+    
+    height: 90px;
+    width: 280px;
+    margin: 10px auto;
+}
+
+.lifes1{
+    max-width: 60px;
+}
+
+.lifes2{
+    max-width: 60px;
+}
+
+.lifes3{
+    max-width: 60px;
+}
+
+.diff{
+    width: 10px auto; 
+    padding: 20px;
+}
+
+.diff1{
+    position: relative;
+    /* margin: 6px  auto; */
+    padding: 5px 12px;
+    height: 30px;
+    width: 90px;
+    outline: none;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 10px;
+    color: #1d89ff;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: inherit;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.smiley{
+    margin: 10 auto;
+    cursor: pointer; 
+    width: 30px;
+    height: 30px;
+
+}
+
+.hint1{
+    max-width: 50px;
+} 
+
+.hint1:hover{
+    cursor: pointer; 
+    max-width: 60px;
+}
+
+
+table{
+    padding: 1rem;
+    margin: 10px auto;
+    border: 3px solid rgba(22, 76, 167, 0.6);
+}
+
+.cell {
+    background-color: rgb(194, 193, 190);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-style: normal;
+    border: 1px solid rgba(22, 76, 167, 0.6);;
+    cursor: pointer;
+}
+
+.cell2 {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-style: normal;
+    border: 1px solid rgba(22, 76, 167, 0.6);;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body onload="init()">
+    <h1 class = "title">Mine-Sweeper</h1>
+    <div class ="modal">
+        <h2>msg</h2>
+    </div>
+    <div class = "tules">
+        <div class ="life">
+            <img class ="lifes1" src ="jpj/heart2.png">
+            <img class ="lifes2" src ="jpj/heart2.png">
+            <img class ="lifes3" src ="jpj/heart2.png">
+        </div>
+        <span class = "timer">Time:</span>
+         <div class = "diff">
+        <span class = "diff1" onclick="init(4,2)">easy</span>
+        <span class = "diff1" onclick="init(8,12)">normal</span>
+        <span class = "diff1" onclick="init(12,30)">hard</span>
+    </div>
+</div>
+    <table>
+        <span class = "smiley" onclick="init()"></span> 
+        <tbody class = "field"></tbody>
+   </table>
+    <div class ="buttons">
+        <ul>
+        <img class="hint1" src="jpj/clue.png" onclick="hint(this)"></img>
+        <img class="hint1" src="jpj/clue.png" onclick="hint(this)"></img>
+        <img class="hint1" src="jpj/clue.png" onclick="hint(this)"></img>
+        </ul>
+        <button class ="safeClicke">safeClicke</button>
+    </div>
+   <script src="js/main.js"></script>
+   <script src="js/play.js"></script>
+   <script src="js/buttons.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+</html>
